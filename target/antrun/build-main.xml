@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip destfile="D:\DEVOPS\Devops softwares\maven\maven jar\amazon\recharge\target/recharge.zip">
+    <zipfileset includes="lib/**" dir="D:\DEVOPS\Devops softwares\maven\maven jar\amazon\recharge\target"/>
+    <zipfileset includes="recharge.jar" dir="D:\DEVOPS\Devops softwares\maven\maven jar\amazon\recharge\target"/>
+    <zipfileset includes="readme.txt" dir="D:\DEVOPS\Devops softwares\maven\maven jar\amazon\recharge"/>
+  </zip>
+</target>
+</project>
